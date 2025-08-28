@@ -1,0 +1,215 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Instrument Serif", sans-serif;
+    text-decoration: none;
+}
+
+@media (min-width: 1100px) {
+
+    header {
+        width: 100%;
+        height: 130px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+
+    }
+
+    header img {
+        width: 110px;
+    }
+
+    header a {
+        color: black;
+        text-shadow: 0 0 0.5px #000000;
+        font-size: 20px;
+        transition-duration: 0.5s;
+        display: flex;
+    }
+
+    .EmUso {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .EmUso hr {
+        border: #2C802F solid 1px;
+        width: 70px;
+        transition: 0.5s;
+    }
+
+    .EmUso a {
+        color: #2C802F;
+        padding: 10px;
+        text-shadow: 0 0 3px #2C802F;
+        transition: 0.5s;
+    }
+
+    header a:hover {
+        color: #2C802F;
+        transition: 0.5s;
+        text-shadow: 0 0 1px #2C802F;
+    }
+
+    .EmUso a:hover~hr {
+        width: 90px;
+    }
+
+    #search {
+        display: flex;
+    }
+
+    .search {
+        background-color: #F5F5F5;
+        border: none;
+        height: 30px;
+        width: 250px;
+        border-radius: 10px 0 0 10px;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    #search a {
+
+        width: 50px;
+        height: 30px;
+        background-color: #B6A1D4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #search a i {
+        color: #000000;
+        font-size: 20px;
+    }
+
+    .nada {
+        height: 130px;
+    }
+
+    footer {
+        height: 370px;
+        background-color: #D9D9D9;
+        box-shadow:
+            0px -5px 10px rgba(0, 0, 0, 0.4),
+            0px -10px 15px rgba(0, 0, 0, 0.2),
+            0px -15px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer {
+        text-align: left;
+        width: 350px;
+    }
+
+    .footer img {
+        width: 126px;
+    }
+
+    .footer i {
+        font-size: 50px;
+        color: #000000;
+    }
+
+    .footer p:not(.não) {
+        margin-top: 35px;
+    }
+
+    .footer p {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.4;
+    }
+
+
+    #meio {
+        height: 86vh;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -1px 28px 31px -24px rgba(0, 0, 0, 0.55) inset;
+        -webkit-box-shadow: -1px 28px 31px -24px rgba(0, 0, 0, 0.55) inset;
+        -moz-box-shadow: -1px 28px 31px -24px rgba(0, 0, 0, 0.55) inset;
+    }
+
+    .meio {
+        width: 80%;
+        height: 80%;
+        background-color: #ffff;
+        border-radius: 18px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meio h1 {
+        width: 100%;
+        font-size: 50px;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
+    #cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .cadastro {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cad {
+        width: 100%;
+        height: 100%;
+        background-color: #E4E2E2;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+
+    .cad input {
+        width: 70%;
+        font-size: 25px;
+        border: none;
+        padding-left: 20px;
+        height: 10%;
+        border-radius: 15px;
+    }
+
+    .cad input:nth-child(4) {
+        background-color: #B6A1D4;
+        width: 50%;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+}
